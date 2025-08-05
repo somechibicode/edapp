@@ -31,7 +31,7 @@ jobs:
           echo "    print(f\"Last updated: {LAST_UPDATED}\")" >> last_updated.py
       - name: Commit changes
         run: |
-          git config --local user.email "somechibicode@gmail.com"
+          git config --local user.email "thienbao81@proton.me"
           git config --local user.name "somechibicode"
           git add -A
           arr[0]="chore(bot): 😂 auto commit"
